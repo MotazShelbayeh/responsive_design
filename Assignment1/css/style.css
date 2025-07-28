@@ -57,14 +57,14 @@ h1 {
 }
 
 
-@media (min-width: 1026px) {
+@media (min-width: 992px) {
     .section {
         flex: 1 1 calc(33.33% - 40px / 3); 
     }
 }
 
 
-@media (min-width: 700px) and (max-width: 1025px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .section:nth-child(1),
     .section:nth-child(2) {
         flex: 1 1 calc(50% - 10px); 
@@ -75,7 +75,7 @@ h1 {
 }
 
 
-@media (max-width: 699px) {
+@media (max-width: 767px) {
     .section {
         flex: 1 1 100%; 
     }
